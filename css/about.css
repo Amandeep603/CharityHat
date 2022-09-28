@@ -1,0 +1,117 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+    
+}
+
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(235, 230, 230);
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;  
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+.image-section{
+    float: right;
+    width: 40%;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-top: 30px;
+}
+.content-section .content h3{
+    margin-top: 30px;
+    color:#383838;
+    font-size: 22px;
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 19px;
+    line-height: 1;
+}
+.content-section .content .button{
+    margin-top: 60px;
+}
+.content-section .content .button a{
+    background-color: #1b1313;
+    padding: 13px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+    /* background-color: #e99c29; */
+    background-color: red;
+    color: #fff;
+}
+.content-section .social{
+    margin:55px 57px;
+}
+.content-section .social i{
+    color: #d80d0d;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+.content-section .social i:hover{
+    /* color: #3d3d3d; */
+    color: blue;
+}
+@media screen and (max-width:768px){
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;  
+    }
+    .content-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .image-section{
+        float: none;
+        width: 100%;
+    }
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+
+    }
+    .content-section .title{
+        text-align: center;
+        font-size: 20px;
+
+    }
+    .content-section .content .button{
+        text-align: center;
+    }
+    .content-section .content .button a{
+        padding: 9px 30px;
+    }
+    .content-section .social{
+        text-align: center;
+    }
+
+
+}
