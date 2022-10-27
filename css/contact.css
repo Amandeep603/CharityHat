@@ -76,6 +76,7 @@ body{
     background: #fff;
     display: flex;
     box-sizing: border-box;
+    margin-top: -30px;
 }
 .contact-left{
     flex-basis: 80%;
@@ -152,6 +153,11 @@ tr td{
     padding-top: 20px;
 }
 
+.heading{
+    text-decoration: underline;
+    text-decoration-color: black;
+    margin-top:10px;
+}
 footer {
     background: black;
     color: white;
