@@ -59,20 +59,20 @@
 }
 .content-section .content .button a:hover{
     /* background-color: #e99c29; */
-    background-color: red;
+    background-color: grey;
     color: #fff;
 }
 .content-section .social{
     margin:55px 57px;
 }
 .content-section .social i{
-    color: #d80d0d;
+    color: black;
     font-size: 30px;
     padding: 0px 10px;
 }
 .content-section .social i:hover{
     /* color: #3d3d3d; */
-    color: blue;
+    color: grey;
 }
 .heading{
     text-decoration: underline;
