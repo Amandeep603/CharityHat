@@ -74,6 +74,10 @@
     /* color: #3d3d3d; */
     color: blue;
 }
+.heading{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
 @media screen and (max-width:768px){
     .container{
         width: 80%;
