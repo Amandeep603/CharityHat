@@ -96,6 +96,10 @@ main {
     color: #000000;
 }
 
+.heading{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
 #donate {
     font-size: 16px;
     padding: 16px;
