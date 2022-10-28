@@ -108,12 +108,14 @@ main {
     text-align: center;
     text-decoration: none;
     transition: 300ms ease;
+    border-radius: 15px;
 }
 
 #donate:hover {
     transform: translate3d(0, -5px, 0);
     box-shadow: 0 2rem 5rem 0 rgba(252, 162, 17, 0.5);
     transition: 300ms ease;
+    background-color:#3C4048;
 }
 
 #donate:focus {
