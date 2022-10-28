@@ -52,7 +52,7 @@ header {
 }
 
 .navlinks li:hover {
-    background-color: rgb(31, 35, 73);
+    background-color: rgb(252, 182, 3);
     transition: all 250ms ease;
 }
 
